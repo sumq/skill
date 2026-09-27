@@ -1,0 +1,6 @@
+interface:
+  display_name: "技术难题证据化攻坚"
+  short_description: "定位故障边界，用可证伪假设和最小实验攻克难题，并沉淀有边界的经验"
+  default_prompt: "使用 $solve-with-evidence 分析这个卡点，主动追问缺失的关键背景，定位最后正确点与第一错误点，用证据区分假设并验证解决方案。"
+policy:
+  allow_implicit_invocation: true

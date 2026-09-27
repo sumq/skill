@@ -1,0 +1,6 @@
+interface:
+  display_name: "需求解剖与证据规划"
+  short_description: "主动澄清关键需求，用最小实验和阶段验收规划跨领域项目，并持续提炼经验"
+  default_prompt: "使用 $plan-with-evidence 分析我的需求，主动质询会改变路线的关键缺口，找出最需要先验证的未知并制定分阶段方案。"
+policy:
+  allow_implicit_invocation: true
